@@ -1,0 +1,14 @@
+caption {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+th {
+  height: 50px;
+  font-size: 2em;
+}
+
+td {
+  height: 30px;
+  text-align: center;
+}
