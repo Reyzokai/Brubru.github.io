@@ -1,3 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+@font-face {
+  font-family: "gresneble";
+  src: url(./Assets/Fonts/KleeOne-Regular.ttf);
+}
+
+body {
+  font-family: "gresneble";
+  height: 100%;
+  background: rgba(70, 184, 167);
+  background: radial-gradient(
+    circle,
+    rgba(83, 236, 96, 1) 0%,
+    rgba(34, 87, 156, 1) 100%
+  );
+}
+
 h1 {
-  font-family: comic;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 15px;
+  text-shadow: 5px 0 0 red;
+  color: blue;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 5px 0 0 grey;
 }

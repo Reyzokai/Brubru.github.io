@@ -2,3 +2,8 @@
   visibility: visible;
   scale: 1;
 }
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
