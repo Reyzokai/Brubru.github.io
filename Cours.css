@@ -7,3 +7,20 @@ h1 {
   text-align: center;
   font-size: 3rem;
 }
+
+main {
+  background: whitesmoke;
+  width: 85%;
+  min-height: 200px;
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.233);
+}
+
+body {
+  background: radial-gradient(
+    circle,
+    rgb(66, 66, 66) 0%,
+    rgb(168, 168, 168) 100%);
+}
