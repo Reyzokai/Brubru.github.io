@@ -1,11 +1,6 @@
-.HTML {
-  visibility: visible;
-  scale: 1;
-}
-
-h1 {
-  text-align: center;
-  font-size: 3rem;
+* {           /* Concerne toutes les balises */
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -23,4 +18,35 @@ body {
     circle,
     rgb(66, 66, 66) 0%,
     rgb(168, 168, 168) 100%);
+}
+
+.HTML {
+  visibility: visible;
+  scale: 1;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.positioning {
+  border: 2px solid skyblue;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+
+  position: relative;
+}
+
+#circle {
+  height: 60px;
+  width: 60px;
+  background: skyblue;
+  border-radius: 50%;
+  padding: 20px;
+  position: absolute;  /* Si .positioning n'est pas en relative, alors le circle se met où il veut dans la page. Si .positionning est relative, le circle se mettra dans la box par rapport à ce parent. */
+  top: 0;
+  right: 56px;
+  box-shadow: 0px 2px 12px 5px rgba(153, 92, 155, 0.767);
 }
