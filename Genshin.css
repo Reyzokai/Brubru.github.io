@@ -1,9 +1,33 @@
 body {
-  background-image: url(./background_genshin.jpg);
+  background-image: url(./Assets/Images/background_genshin.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: auto;
+}
+
+.Liens {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.LienAccueil {
+  font-size: 2em;
+  text-decoration-line: none;
+  color: red;
+  flex: auto;
+}
+
+.LienCours {
+  font-size: 2em;
+  text-decoration-line: none;
+  color: red;
+  flex: initial;
+}
+
+table {
+  background: lightgoldenrodyellow;
 }
 
 caption {
@@ -19,4 +43,8 @@ th {
 td {
   height: 30px;
   text-align: center;
+}
+
+caption {
+  background: goldenrod;
 }

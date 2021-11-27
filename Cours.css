@@ -20,6 +20,26 @@ body {
     rgb(168, 168, 168) 100%);
 }
 
+.Liens {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.LienAccueil {
+  font-size: 2em;
+  text-decoration-line: none;
+  color: lightgoldenrodyellow;
+  flex: auto;
+}
+
+.LienGenshin {
+  font-size: 2em;
+  text-decoration-line: none;
+  color: lightgoldenrodyellow;
+  flex: initial;
+}
+
 .HTML {
   visibility: visible;
   scale: 1;
@@ -49,4 +69,15 @@ h1 {
   top: 0;
   right: 56px;
   box-shadow: 0px 2px 12px 5px rgba(153, 92, 155, 0.767);
+}
+
+#rectangle {
+  height: 60px;
+  width: 100px;
+  background: rgb(91, 133, 223);
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
