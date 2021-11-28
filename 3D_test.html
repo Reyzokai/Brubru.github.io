@@ -124,7 +124,7 @@
     </script> -->
 
     <!-- Skybox -->
-    <!-- <script type="module">
+    <script type="module">
         const modelViewer = document.querySelector("#envlight-demo");
 
         let lastX;
@@ -194,7 +194,7 @@
         modelViewer.addEventListener('touchend', (event) => {
             panning = false;
         }, true);
-    </script> --> -->
+    </script>
 
 
     <style>
@@ -210,7 +210,7 @@
 
 
 <body>
-    <model-viewer src="./Assets/3D objects/Genshin/Paimon.gltf" ar camera-controls auto-rotate id="pan-demo" oncontextmenu="return false";>
+    <model-viewer src="./Assets/3D objects/Genshin/Paimon.gltf" ar magic-leap camera-controls auto-rotate id="pan-demo" oncontextmenu="return false;" ios-src="fichier.usdz">
 
     </model-viewer>
 
